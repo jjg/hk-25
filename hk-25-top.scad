@@ -1,4 +1,4 @@
-speaker_diameter = 52;
+speaker_diameter = 55; // messing with this until we get a good fit, not the actual size
 
 union(){
 	difference(){
