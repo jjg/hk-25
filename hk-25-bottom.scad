@@ -1,9 +1,9 @@
-speaker_diameter = 55;
+speaker_diameter = 58;
 jack_barrel_diameter = 6;
 
 difference(){
 	// bottom bounding "box"
-	cylinder(r=(speaker_diameter/2)+1,h=speaker_diameter,$fn=100);
+	cylinder(r=(speaker_diameter/2)+2,h=speaker_diameter,$fn=100);
 	
 	// center hole
 	translate([0,0,1]){
